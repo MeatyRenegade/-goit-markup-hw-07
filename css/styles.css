@@ -43,104 +43,6 @@
   background-color: var(--hero-backg-cl);
 }
 
-.features {
-  padding-top: 94px;
-  background-color: var(--fill-in-color);
-}
-
-.feature-header {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.42;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--header-color);
-  margin-bottom: 10px;
-}
-
-.what-we-do {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: var(--fill-in-color);
-}
-
-.wwd-header,
-.our-team-header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  color: var(--hero-backg-cl);
-}
-
-.wwd-item {
-  position: relative;
-  z-index: 1;
-}
-
-.wwd-item p {
-  position: absolute;
-  color: var(--fill-in-color);
-  top: 246px;
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  width: 100%;
-  z-index: 2;
-  margin: 0;
-}
-
-.wwd-item::after {
-  content: "";
-  position: absolute;
-  top: 224px;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
-  z-index: 1;
-}
-
-.our-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: var(--wwd-backgr);
-}
-
-.team-memb-box {
-  width: 270px;
-  height: 428px;
-  background: var(--fill-in-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.team-memb-box:not(last-child) {
-  margin-right: 30px;
-}
-
-.team-memb-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--header-color);
-  margin-bottom: 10px;
-}
-
-.team-memb-role {
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
-}
-
 .ourworks-header {
   font-weight: 700;
   font-size: 18px;
@@ -260,24 +162,6 @@
   margin-bottom: 9px;
 }
 
-.featureslist {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 0;
-  margin: 0;
-}
-
-.item-p {
-  width: 270px;
-  height: 75px;
-}
-
-.tm-description {
-  margin-top: 30px;
-  margin-bottom: 16px;
-}
-
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -379,16 +263,6 @@
   margin-left: 70px;
 }
 
-.social-icons-item {
-  list-style: none;
-  fill: var(--fill-in-color);
-  margin-right: 10px;
-}
-
-.social-icons-item:last-child {
-  margin-right: 0;
-}
-
 .social-icons-link {
   display: flex;
   align-items: center;
@@ -409,56 +283,6 @@
   width: 20px;
   height: 20px;
   fill: var(--fill-in-color);
-}
-
-.social-team-icons {
-  display: flex;
-  padding: 0;
-}
-
-.social-team-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
-
-.social-team-link:hover,
-.social-team-link:focus {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: var(--hover-color);
-}
-
-.social-team-link:hover .social-team-svg,
-.social-team-link:focus .social-team-svg {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: var(--fill-in-color);
-}
-
-.social-team-svg {
-  width: 20px;
-  height: 20px;
-  fill: var(--clients-list-color);
-}
-
-.social-team-box {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.features-box {
-  display: flex;
-  width: 270px;
-  height: 120px;
-  background-color: var(--wwd-backgr);
-  margin-bottom: 30px;
-  border-radius: 4px;
-  padding-top: 25px;
-  padding-right: 100px;
-  padding-bottom: 25px;
-  padding-left: 100px;
 }
 
 .telegram-sub-header {
